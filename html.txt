@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Webistry — Creative Web Designing</title>
+  <meta name="description" content="Webistry: Modern web designing and logo creation — without coding." />
+  <style>
+    :root{
+      --bg:#0f0f12;
+      --panel:#15151a;
+      --text:#e8e8ef;
+      --muted:#a0a0b0;
+      --brand1:#ff3d81;
+      --brand2:#7c4dff;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;padding:0;
+      font-family: Arial, Helvetica, sans-serif;
+      background:#0b0b0d;color:var(--text);line-height:1.7;
+    }
+    .container{max-width:1100px;margin:0 auto;padding:0 18px}
+    header{position:sticky;top:0;background:#111;color:#fff;padding:12px 0;z-index:50}
+    nav{display:flex;justify-content:center;gap:16px}
+    nav a{color:#fff;text-decoration:none;font-weight:600;opacity:.85}
+    nav a:hover{opacity:1}
+    .hero{background:linear-gradient(120deg,var(--brand1),var(--brand2));color:#fff;padding:70px 20px;text-align:center}
+    .hero h1{font-size:2.2rem;margin:0}
+    .hero p{margin:12px 0}
+    .btn{display:inline-block;margin:8px;padding:10px 18px;border-radius:999px;text-decoration:none;font-weight:700}
+    .btn.primary{background:#fff;color:#111}
+    .btn.ghost{border:1px solid #fff;color:#fff}
+    .section{padding:60px 20px;background:#0f0f12}
+    .section.alt{background:#0c0c10}
+    .section h2{margin-bottom:20px}
+    .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px}
+    .card{background:var(--panel);padding:18px;border-radius:14px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+    .grid img{width:100%;height:150px;object-fit:cover;border-radius:10px}
+    footer{background:#111;color:#aaa;text-align:center;padding:18px;margin-top:40px}
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <a href="https://www.instagram.com/_.webistry/" target="_blank">Instagram</a>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <h1>Creative Web Designing — No Coding Needed</h1>
+    <p>Clean, modern and mobile-friendly websites & logos.</p>
+    <a href="https://www.instagram.com/_.webistry/" target="_blank" class="btn primary">View on Instagram</a>
+    <a href="#contact" class="btn ghost">Contact Me</a>
+  </section>
+
+  <section id="services" class="section">
+    <div class="container">
+      <h2>My Services</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Web Design (No-Code)</h3>
+          <p>Fast and responsive websites using WordPress and builders.</p>
+        </div>
+        <div class="card">
+          <h3>Logo & Branding</h3>
+          <p>Memorable logo designs and branding guides for your identity.</p>
+        </div>
+        <div class="card">
+          <h3>UI/UX Improvements</h3>
+          <p>Making your pages more user-friendly with better layouts and flow.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio" class="section alt">
+    <div class="container">
+      <h2>Portfolio</h2>
+      <div class="grid">
+        <img src="https://via.placeholder.com/400x250.png?text=Work+1" alt="Work 1">
+        <img src="https://via.placeholder.com/400x250.png?text=Work+2" alt="Work 2">
+        <img src="https://via.placeholder.com/400x250.png?text=Work+3" alt="Work 3">
+        <img src="https://via.placeholder.com/400x250.png?text=Work+4" alt="Work 4">
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>Hi, I’m Abdul Aziz (Webistry). I focus on creating modern websites, logos, and branding so your online presence looks professional and engaging.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="section alt">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>📩 Email: <a href="mailto:ninjaisvloger@gmail.com.com">you@example.com</a></p>
+      <p>📱 Phone/WhatsApp: <a href="https://wa.me/923175004013" target="_blank">+92XXXXXXXXXX</a></p>
+      <p>💬 DM: <a href="https://www.instagram.com/_.webistry/" target="_blank">@_.webistry</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Webistry — All Rights Reserved</p>
+  </footer>
+</body>
+</html>
